@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    color: white;
+    background-color: #333;
+    position: relative;
+    
+   
+}
+header h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.navbar h1{
+    float: left;
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+.navbar h1 span{
+    color:white;
+}
+.navbar h1 span sup{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.navbar ul{
+    list-style: none;
+    float: right;
+}
+.navbar ul li{
+    float: left;
+}
+
+.navbar ul li a{
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+.navbar ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar ul li a:hover{
+   border-bottom: cyan 3px solid;
+}
+
+/* FLEX BOX IMAGES */
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    margin-left: 60px;
+}
+header h1 > a{
+    text-decoration: none;
+}
+header h1 > a:hover{
+    color: lightblue;
+}
+.size{
+    width: 260px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 300px;
+    object-fit: cover;
+    border: black 2px solid;
+    border-radius: 5px;
+}
+footer{
+    font-size: 30px;
+    text-align: center;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70px;
+    overflow: hidden;
+    color: #fff;
+}
