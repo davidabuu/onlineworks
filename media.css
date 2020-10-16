@@ -15,7 +15,7 @@
       padding-top: 200px;
   }
   .works{
-    transform: translateY(-400px);
+   
 
   }
   .show{
@@ -25,7 +25,6 @@
     text-align: center;
     width: 100%;
     height: 100px;  
-    transform: translateY(-290px);
 }
   .sizes{
     width: 300px;
